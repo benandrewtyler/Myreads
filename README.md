@@ -9,7 +9,6 @@
 * [Important](#important)
 * [App Functionality](#app-functionality)
 * [Credits & Helpful Links](#credits-&-helpful-links)
-* [Screenshots](#screenshots)
 
 
 
@@ -29,17 +28,17 @@ As a starting point, I was given a starter static template without any of the Re
 
 To run the project, download or clone the repository in your computer:
 
-    $ git clone https://github.com/dimikara/react-my-reads.git
+    $ git clone https://github.com/benandrewtyler/Myreads.git
 
-and follow the instructions below.
+and follow the below instructions.
 
 In the repository folder: 
 * install all project dependencies with 
 
-        npm install
-* start the development server with 
+		npm install
+* start the development server with
 
-        npm start
+		npm start
 
 Please note that the backend server -against which the web app was developped- was provided by Udacity. The provided file [`BooksAPI.js`](src/BooksAPI.js) contains the methods I used to perform necessary operations on the backend:
 
@@ -48,7 +47,6 @@ Please note that the backend server -against which the web app was developped- w
 * `search`
 
 For more information on how these methods are used exactly, please refer to the original [Udacity repository](https://github.com/udacity/reactnd-project-myreads-starter).
-
 
 
 ## App Functionality
@@ -66,7 +64,7 @@ The search page has a text input field that may be used to find books. As the va
 
 ## Important
 
-The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [**SEARCH_TERMS.md**](SEARCH_TERMS.md). That list of terms are the **only terms** that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
+The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [**SEARCH_TERMS.md**](SEARCH_TERMS.md). That list of terms are the **only terms** that will work with the backend, so don't be surprised if your searches for zombie apocalypse or ASMR don't come back with any results.
 
 
 
@@ -80,22 +78,6 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 * React Router from [React Training](https://reacttraining.com/react-router/web/example/url-params).
 * Favicon generated via [Favicon & App Icon Generator](https://www.favicon-generator.org/).
 
-
-
-## Screenshots
-
-* An illustration of the Components I created and the hierarchy followed during building the App.
-![Screenshot1](./src/Media/Screenshot1.PNG "Screenshot")
-* A screenshot of the web app home page: 
-![Screenshot2](./src/Media/Screenshot2.PNG "Screenshot")
-* A screenshot of the web app search page; showing books that appear when searching for "Artificial Intelligence". 
-![Screenshot3](./src/Media/Screenshot3.PNG "Screenshot")
-
-
-
-## Future Amendments
-
-* Creation of one component for each shelf and updating the app accordingly.
-* Change the view by updating the css file (add [Bootstrap React](https://reactstrap.github.io/)?).
-* Find a way to use the NoSearchResults Component to inform the user when there are no results that match their search query; or maybe use another method for this.
-* Deploying the project live in GitHub Pages.
+Any suggestions of additional resources that would be useful to the community would be warmly welcome and greatly appreciated.
+Feel free to add your suggestions by creating a new pull request with the component "Documentation" with your
+comment.
